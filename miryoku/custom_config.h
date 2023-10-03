@@ -1,9 +1,9 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
-#define XXX &none
+//#define XXX &none
 
-#if 
+//#if 
 
 //#define MIRYOKU_LAYOUTMAPPING_CORNE( \
      K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
@@ -32,7 +32,7 @@
 #define MIRYOKU_LAYERS_FLIP
 #define MIRYOKU_NAV_INVERTEDT
 
-#define MIRYOKU_LAYER_BASE \
+#define MIRYOKU_LAYERS_BASE \
 &kp Q,             &kp W,             &kp F,             &kp P,             &kp B,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,           \
 U_MT(LGUI, A),     U_MT(LALT, R),     U_MT(LCTRL, S),    U_MT(LSHFT, T),    &kp G,             &kp M,             U_MT(LSHFT, N),    U_MT(LCTRL, E),    U_MT(LALT, I),     U_MT(LGUI, O),     \
 U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,             &kp D,             &kp V,             &kp K,             &kp H,             &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SLASH),\
