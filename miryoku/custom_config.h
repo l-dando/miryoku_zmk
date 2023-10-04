@@ -41,7 +41,7 @@ U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &kp 
 //#define MIRYOKU_KLUDGE_THUMBCOMBOS_LEFT 37 38
 //#define MIRYOKU_KLUDGE_THUMBCOMBOS_RIGHT 39 40
 
-#define MIRYOKU_LAYERS_FLIP
-#define MIRYOKU_NAV_INVERTEDT
+//#define MIRYOKU_LAYERS_FLIP
+//#define MIRYOKU_NAV_INVERTEDT
 
 
