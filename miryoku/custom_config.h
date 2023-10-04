@@ -5,16 +5,7 @@
 
 //#if 
 
-#define MIRYOKU_LAYOUTMAPPING_CORNE( \
-     K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
-     K10, K11, K12, K13, K14,      K15, K16, K17, K18, K19, \
-     K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
-     N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
-) \
-&kp ESC  K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  XXX \
-&kt CAPS  K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  XXX \
-&kp LGUI  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
-               K32  K33  K34       K35  K36  K37
+
 
 #define MIRYOKU_LAYERS_BASE \
 &kp Q,             &kp W,             &kp F,             &kp P,             &kp B,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,           \
@@ -28,6 +19,16 @@ U_NP,              U_NP,              U_LT(U_FUN, ESC),  U_LT(U_NUM, SPACE), U_L
 &kp Z,             &kp X,             &kp C,             &kp D,             &kp V,             &kp K,             &kp H,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
 U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &kp TAB,           &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
+#define MIRYOKU_LAYOUTMAPPING_CORNE( \
+     K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
+     K10, K11, K12, K13, K14,      K15, K16, K17, K18, K19, \
+     K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
+     N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
+) \
+&kp ESC  K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  XXX \
+&kt CAPS  K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  XXX \
+&kp LGUI  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
+               K32  K33  K34       K35  K36  K37
 //#define MIRYOKU_KLUDGE_TOPROWCOMBOS_LEFTPINKIE 2 3
 //#define MIRYOKU_KLUDGE_TOPROWCOMBOS_LEFTINNERINDEX 3 4
 //#define MIRYOKU_KLUDGE_TOPROWCOMBOS_RIGHTINNERINDEX 7 8
